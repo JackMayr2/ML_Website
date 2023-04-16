@@ -1,0 +1,29 @@
+{% extends "base_menu.html" %}
+{% load humanize %} <!-- https://docs.djangoproject.com/en/3.0/ref/contrib/humanize -->
+{% block head %}
+<style>
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+</style>
+{% endblock %}
+{% block content %}
+
+        <p>
+          This project is for the benefit of myself and anyone trying to learn about similar things.
+    I hope to organize this site as a way of displaying what I have learned / done. In
+    scientific studies and anecdotally, teaching is the best way to solidify learning. This site hopes to accomplish that for me
+    as I try to explain what I have learned in my own words, as well as implement in examples.
+        </p>
+          <p>
+              <script src="https://gist.github.com/JackMayr2/0cd2b53df432cd3eed04bdd7a6ea49b7.js"></script>
+          </p>
+
+{% endblock %}

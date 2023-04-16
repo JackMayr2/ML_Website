@@ -1,0 +1,12 @@
+﻿<link href="txtstyle.css" rel="stylesheet" type="text/css" />
+
+This article will be an overview of machine learning basics. This project is for the benefit of myself and anyone trying to learn about similar things.  I plan to organize this site as a way of displaying what I have learned/done. In scientific studies and anecdotally, teaching is the best way to solidify learning. This site hopes to accomplish that for me as I try to explain what I have learned in my own words, as well as implement examples.
+
+
+
+
+* What is / why do we use machine learning?
+   * Machine Learning is the process of feeding the computer data through a model, and the computer figures out how to weigh different features/combinations of features to elicit the best outcomes.
+* Machine Learning use cases
+   * Answer
+*
